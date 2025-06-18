@@ -1,0 +1,65 @@
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
+}
+
+.admin-logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.reco-logo {
+  height: 60px;
+  width: auto;
+}
+
+.admin-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Reuse general nav-link styles */
+.nav-link {
+  margin: 0 10px;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 6px 12px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+  color: #30a536;
+}
+
+.nav-link.active::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #30a536;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .admin-nav {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    margin: 6px 0;
+    text-align: center;
+  }
+}
