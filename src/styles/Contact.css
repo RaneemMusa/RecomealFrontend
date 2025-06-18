@@ -1,0 +1,31 @@
+.contact-page {
+  padding: 40px 10%;
+  background: linear-gradient(to bottom, #fff8e1, #fff3d1);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 80vh;
+}
+
+.contact-page h2 {
+  font-size: 1.8rem;
+  color: #2a742f;
+  margin-bottom: 25px;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.contact-info a {
+  color: #2a742f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.map-container {
+  margin-top: 30px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}

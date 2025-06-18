@@ -1,0 +1,64 @@
+.food-list {
+  padding: 50px 5%;
+  background: linear-gradient(to bottom, #fff8e1, #fff3d1);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.food-list h2 {
+  text-align: center;
+  color: #226c2b;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.list-container {
+  max-width: 250px;
+  margin: 0 auto;
+  background: #e5f2d8;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-item img {
+  width: 5px;
+  height: 5px;
+  border-radius: 1px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.list-item span {
+  flex: 1;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.list-item button {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #999;
+  transition: color 0.3s;
+}
+
+/* .list-item button:hover {
+  color: #e74c3c;
+} */
+
+.empty {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #888;
+}
