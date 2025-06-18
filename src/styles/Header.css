@@ -1,0 +1,145 @@
+/* 
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 75px;
+  width: 120px;
+  margin-right: 5px;
+}
+
+.logo-text {
+  font-size: 20px;
+  color: #30a536;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-links a.active::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #30a536;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.nav-links a:hover {
+  color: #30a536;
+}
+
+.nav-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: #30a536;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    background: white;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 0;
+  }
+}
+ */
+
+ /* .logo {
+  height: 60px;
+  width: auto;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #444;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  color: #30a536;
+}
+
+.nav-link.active {
+  color: #30a536;
+  border-bottom: 2px solid #30a536;
+} */
+
+.reco-logo {
+  height: 60px;
+  width: auto;
+}
+
+/* Style nav links */
+.nav-link {
+  margin: 0 10px;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  color: #30a536;
+}
+.navbar-nav .nav-link {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.nav-link.active::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #30a536;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    margin: 8px 0;
+    text-align: center;
+  }
+}

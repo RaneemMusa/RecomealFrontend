@@ -1,0 +1,137 @@
+/* .recipe-details {
+  background: #fff8e1;
+  padding: 50px 8%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.recipe-details h2 {
+  text-align: center;
+  color: #226c2b;
+  margin-bottom: 30px;
+}
+
+.details-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background: #d8ecc8;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.instructions {
+  flex: 1;
+}
+
+.instructions h3 {
+  margin-top: 0;
+  color: #2a742f;
+}
+
+.instructions ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.instructions p {
+  line-height: 1.6;
+}
+
+.details-container img {
+  max-width: 400px;
+  border-radius: 12px;
+} */
+
+
+.recipe-details {
+  padding: 50px 5%;
+  background: linear-gradient(to bottom, #fff8e1, #fff3d1);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.details-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #226c2b;
+  margin-bottom: 40px;
+}
+
+.details-card {
+  background-color: #d8ecc8;
+  padding: 40px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.text-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.text-column h3 {
+  color: #226c2b;
+  margin-bottom: 10px;
+}
+
+.text-column ul,
+.text-column ol {
+  padding-left: 20px;
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.image-column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-column img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-button {
+  margin-top: 20px;
+  background-color: #30a536;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #249128;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.4rem;
+  color: #226c2b;
+}
+
+@media (max-width: 768px) {
+  .details-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-column img {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,74 @@
+
+
+.welcome-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #fefefe, #fce391);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.welcome-logo {
+  width: 300px;
+  margin-bottom: 20px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.welcome-description {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-50px); }
+  100% { transform: translateY(0px); }
+}
+
+.welcome-text {
+ font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 30px;
+  color: #2e2e2e;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  font-style: oblique;
+}
+
+.signup-btn {
+  background-color: #30a536;
+  color: white;
+  padding: 15px 50px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.signup-btn:hover {
+  transform: scale(1.05);
+  background-color: #249328;
+}
+
+.already-account {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.already-account a {
+  color: #30a536;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.already-account a:hover {
+  text-decoration: underline;
+}
